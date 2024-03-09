@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ojuju:wght@200..800&family=Roboto+Condensed:ital,wght@0,711;1,711&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+p {
+    font-family: "Nunito", sans-serif;
+    padding: 10px 15%;
+}

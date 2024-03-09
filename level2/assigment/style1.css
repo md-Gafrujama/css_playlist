@@ -1,0 +1,17 @@
+
+div{
+    background-color:cornflowerblue;
+    margin-right: 400px;
+    padding: 7px;
+   
+    
+}
+a {
+    color: #fff;
+    margin-right: 20px;
+    margin-left: 20px;
+  
+    }
+    a:hover {
+    color: #000000;
+    }

@@ -1,0 +1,40 @@
+
+div{
+    background-color:cornflowerblue;
+    margin-right: 350px;
+    padding: 7px;
+   
+    
+}
+a {
+    color: #fff;
+    margin-right: 20px;
+    margin-left: 20px;
+  
+    }
+    a:hover {
+    color: #000000;
+    }
+    #gafru{
+        border: 3px solid black;
+        padding: 5px;
+    }
+    #sanju{
+        border: 3px dotted black;
+        padding: 5px;
+    }
+    #pw{
+        border: 3px dashed black;
+        padding: 5px;
+
+    }
+    #irfan{
+        border: 3px double black;
+        padding: 5px;
+
+    }
+    #ajay{
+        border: 3px groove black;
+        padding: 5px;
+
+    }

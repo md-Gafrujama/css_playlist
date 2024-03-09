@@ -1,0 +1,17 @@
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    border-radius: 15px rgb(0, 0, 0) solid;
+  }
+  div {
+    margin: 0 auto;
+    width: 300px;
+    padding: 10px;
+    background-color: #f8c42e;
+    border-radius: 19px;
+    opacity: 0.1;
+  }
+  div:hover {
+    opacity: 1;
+  }
