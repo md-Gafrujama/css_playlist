@@ -25,12 +25,14 @@ Flexibility to make responsive websites with media queries.
 Syntax:
 A CSS rule consists of a selector and a declaration block:
 
-
+css
+Copy code
 selector {
   property: value;
 }
 Example:
-
+css
+Copy code
 p {
   color: blue;
   font-size: 16px;
@@ -49,7 +51,8 @@ Class Selector (.classname): Selects elements with the specified class.
 ID Selector (#idname): Selects an element with the specified ID.
 Attribute Selector ([attr=value]): Selects elements with the specified attribute value.
 Example:
-
+css
+Copy code
 * {
   margin: 0;
   padding: 0;
@@ -71,7 +74,8 @@ Padding: Space between the content and the border.
 Border: A line surrounding the padding.
 Margin: Space outside the border between other elements.
 Example:
-
+css
+Copy code
 div {
   margin: 20px;
   padding: 10px;
@@ -87,7 +91,8 @@ grid: Used for grid layouts.
 Float and Clear:
 Floats are used to position elements horizontally. The clear property is used to avoid overlapping floating elements.
 
-
+css
+Copy code
 .float-left {
   float: left;
 }
@@ -104,7 +109,8 @@ absolute: Positioned relative to the nearest positioned ancestor.
 fixed: Stays in a fixed position even when the page is scrolled.
 sticky: Sticks in place based on scroll position.
 Example:
-
+css
+Copy code
 .fixed-header {
   position: fixed;
   top: 0;
@@ -119,7 +125,8 @@ justify-content: Aligns items horizontally.
 align-items: Aligns items vertically.
 flex-direction: Defines the direction of the flex items (row, column).
 Example:
-
+css
+Copy code
 .container {
   display: flex;
   justify-content: space-between;
@@ -134,7 +141,8 @@ grid-template-columns: Defines the number of columns.
 grid-template-rows: Defines the number of rows.
 grid-gap: Adds spacing between grid items.
 Example:
-
+css
+Copy code
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -163,7 +171,8 @@ CSS3 introduced the ability to create animations and smooth transitions between 
 Transitions:
 Used to change property values smoothly over a specified duration.
 
-
+css
+Copy code
 button {
   transition: background-color 0.5s ease;
 }
@@ -192,7 +201,8 @@ Copy code
 Media queries allow responsive design by applying styles based on the device's characteristics (e.g., screen width).
 
 Example:
-
+css
+Copy code
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -229,7 +239,8 @@ Grid: Two-dimensional layout (both rows and columns).
 5. What are pseudo-classes in CSS? Give an example.
 Pseudo-classes are special states of elements. For example:
 
-
+css
+Copy code
 a:hover {
   color: red;
 }
@@ -250,7 +261,8 @@ Padding: The space inside the element’s border and around the content.
 10. How can you center an element horizontally and vertically in CSS?
 Using Flexbox:
 
-
+css
+Copy code
 .container {
   display: flex;
   justify-content: center;
