@@ -23,3 +23,7 @@ Reusability across multiple HTML pages.
 Responsive design capabilities with media queries.
 2. CSS Basics
 A CSS rule consists of a selector and a declaration block:
+selector {
+  property: value;
+}
+
